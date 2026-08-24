@@ -1,31 +1,31 @@
 name: Moderazione
 version: 1.0.0
-main: com.nomercymc.moderation.NoMercyMC
+main: com.moderation.Moderazione
 api-version: '1.21'
 author: TuoNome
 
 commands:
   ban:
-    permission: nomercy.admin
+    permission: moderazione.admin
   tempban:
-    permission: nomercy.admin
+    permission: moderazione.admin
   ipban:
-    permission: nomercy.admin
+    permission: moderazione.admin
   tempipban:
-    permission: nomercy.admin
+    permission: moderazione.admin
   unban:
-    permission: nomercy.admin
+    permission: moderazione.admin
   mute:
-    permission: nomercy.staff
+    permission: moderazione.staff
   tempmute:
-    permission: nomercy.staff
+    permission: moderazione.staff
   unmute:
-    permission: nomercy.staff
+    permission: moderazione.staff
   warn:
-    permission: nomercy.staff
+    permission: moderazione.staff
   kick:
-    permission: nomercy.staff
+    permission: moderazione.staff
   clearchat:
-    permission: nomercy.staff
+    permission: moderazione.staff
   dupeip:
-    permission: nomercy.staff
+    permission: moderazione.staff
